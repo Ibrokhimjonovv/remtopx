@@ -1,0 +1,21 @@
+#not-found {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+        font-size: 60px;
+    }
+
+    a {
+        color: rgba(0, 0, 255, 0.562);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #not-found {
+        height: 50vh;
+    }
+}
